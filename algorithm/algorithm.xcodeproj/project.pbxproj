@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A973101B1E82D06E00C4F367 /* tongpaixu.c in Sources */ = {isa = PBXBuildFile; fileRef = A973101A1E82D06E00C4F367 /* tongpaixu.c */; };
+		A9F766FA1E8565E6002E8407 /* maopaopaixu.c in Sources */ = {isa = PBXBuildFile; fileRef = A9F766F91E8565E6002E8407 /* maopaopaixu.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		A973100D1E82CFDF00C4F367 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		A973101A1E82D06E00C4F367 /* tongpaixu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tongpaixu.c; sourceTree = "<group>"; };
+		A9F766F91E8565E6002E8407 /* maopaopaixu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = maopaopaixu.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				A973101A1E82D06E00C4F367 /* tongpaixu.c */,
+				A9F766F91E8565E6002E8407 /* maopaopaixu.c */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9F766FA1E8565E6002E8407 /* maopaopaixu.c in Sources */,
 				A973101B1E82D06E00C4F367 /* tongpaixu.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +250,7 @@
 				A97310161E82CFDF00C4F367 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
